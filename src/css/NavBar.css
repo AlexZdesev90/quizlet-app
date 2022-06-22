@@ -1,0 +1,35 @@
+.nav__elements{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: lightsteelblue;
+    grid-column-gap: 10px;
+    width: 100vw;
+    text-align: center;
+    justify-items: center;
+}
+
+.nav__elements span a{
+    line-height: 80px;
+    margin: 30px;
+    /* width: 200px; */
+    height: 80px;
+    padding: 20px;
+    color:black;
+    /* text-shadow: 5px 5px 3px black; */
+    background-color: lemonchiffon;
+    border: 0.5px solid black;
+    border-bottom: 4px solid black;
+    border-right: 3px solid black;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+.nav__elements span a:hover,
+.nav__elements span a:focus{
+    background-color: lightskyblue;
+    outline:none;
+}
+
+.el{
+    color: white;
+}

@@ -1,0 +1,43 @@
+.train__content {
+    display:flex;
+    /* margin: 5px auto; */
+    justify-content: center;
+    align-items: center;
+    width:95%;
+    /* background-color: antiquewhite;  */
+}
+
+.input {
+    width:80%;
+    padding:8px;
+    margin: 1px;
+    font-size: medium;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    box-shadow: 2px 3px 5px black;
+}
+.input:focus{
+    outline: none;
+}
+
+.btn__section {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+}
+
+.btn1 {
+   width: 40px;
+   height: 20px;
+   margin: 1px;
+   border-radius: 5px;
+   border: none;
+    background-color:darkgoldenrod;
+    color: #F3EA09;
+    border-bottom: 2px solid #000;
+}
+
+.btn1:hover{
+    background-color: rgb(153, 112, 7);
+}

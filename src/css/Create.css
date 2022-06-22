@@ -1,0 +1,42 @@
+.create__content{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  align-items: center;
+  width:70%;
+}
+
+.create__element{
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 8px 20px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 2px 3px 5px black;
+}
+
+.create__element:focus{
+  outline: none;
+}
+
+.create__content button{
+  font-weight: 900;
+  font-size: large;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  border-radius: 50%;
+  right: 0;
+  top:0;
+  border: none;
+  background-color: burlywood;
+  box-shadow: 2px 2px 20px black;
+}
+
+.create__content button:hover{
+  background-color:brown;
+  color:burlywood;
+  box-shadow: 10px 10px 30px black;
+}

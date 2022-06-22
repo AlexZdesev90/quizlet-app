@@ -1,0 +1,24 @@
+.train__box{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.buttn__box{
+    margin: 10px;
+}
+
+.buttn{
+    width: 200px;
+    height: 20px;
+    margin: 1px;
+   border-radius: 5px;
+   border: none;
+    background-color:lightgray;
+    color: black;
+    border-bottom: 2px solid #000;
+}
+
+.buttn:hover{
+    background-color: rgb(175, 175, 175);
+}
